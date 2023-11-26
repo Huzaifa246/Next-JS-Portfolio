@@ -8,7 +8,9 @@ const Projects = () => {
       id="projects"
     >
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
-        My Projects
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-900">
+          My Projects
+        </span>
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard

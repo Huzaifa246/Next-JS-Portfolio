@@ -11,13 +11,15 @@ const Encryption = () => {
       <div className="absolute w-auto h-auto top-0 z-[5]">
         <motion.div
           variants={slideInFromTop}
-          className="text-[5vh] font-medium text-center text-gray-200"
+          className="text-[5cqw] font-medium text-center text-gray-200"
         >
-          Performance
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            & 
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-900">
+            Performance
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-purple-900">
+              &
+            </span>
+            Security
           </span>
-          Security
         </motion.div>
       </div>
 
@@ -39,13 +41,19 @@ const Encryption = () => {
           />
         </div>
 
-        <div className="Welcome-box px-[15px] py-[4px] z-[20] brder my-[20px] border-[#7042f88b] opacity-[0.9]">
-          <h1 className="Welcome-text text-[12px]">Encryption & Decryption</h1>
+        <div className="Welcome-box px-[15px] py-[4px] z-[20] brder my-[20px] border-[#f842428b] opacity-[0.9]">
+          <h1 className="Welcome-text text-[12px]">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-900">
+              Encryption & Decryption
+            </span>
+          </h1>
         </div>
       </div>
       <div className="absolute z-[20] bottom-[10px] px-[5px]">
-        <div className="cursive text-[20px] font-medium text-center text-gray-300">
-          Secure your data with end-to-end encryption
+        <div className="cursive text-[20px] font-medium text-center">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-900">
+            Secure your data with end-to-end encryption
+          </span>
         </div>
       </div>
 
